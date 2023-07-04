@@ -1,0 +1,722 @@
+html {
+	font-size:69%;
+}
+* {
+	margin: auto;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+    width: 122rem;
+}
+.homepage {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.homepage .first-layout {
+    width: 100%;
+    height: 68rem;
+    position: relative;
+    flex-shrink: 0;
+}
+.homepage .first-layout .rectangle-nav {
+    width: 122rem;
+    height: 10rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+}
+.homepage .first-layout .rectangle-main-image {
+    width: 122rem;
+    height: 58rem;
+    position: absolute;
+    left: 0;
+    top: 10rem;
+    background-color: #ffffff;
+}
+.homepage .first-layout .main-image {
+    /*width: 144rem;*/
+    right: 4rem;
+    height: 62rem;
+    position: absolute;
+    left: 2rem;
+    top: 10.3rem;
+    object-fit: cover;
+    vertical-align: top;
+}
+.homepage .first-layout .register-now2 {
+    /*width: 12.4rem;*/
+    top: 63rem;
+    left: 28rem;
+    height: 4rem;
+    cursor: pointer;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+} 
+.homepage .first-layout .register-now2:hover {
+    content: url('assets/registerboxhover.png'); /* Replace 'another-image.png' with the path to your desired image */
+}
+
+.homepage .first-layout .home-navigation {
+    box-sizing: border-box;
+    padding: 3.5rem 6.086rem 3.4rem 6rem;
+    width: 122rem;
+    height: 10rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .logo {
+    margin: 0.695rem 40.8rem 0.795rem 0rem;
+    /*height: calc(100% - 1.4908rem);*/
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list {
+    margin-top: 0.5rem;
+    margin-right: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .tellastory-button {
+    margin-right: 2.8rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 0.6;
+    color: #757575;
+    font-family: Raleway, sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .tellastory-button:hover {
+    color:#F4A60B;    
+    text-shadow: 0.063rem 1 #F4A60B;
+    /*letter-spacing:1px;*/
+    font-weight: bolder;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .findus-button {
+    margin-right: 2.3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 0.6;
+    color: #757575;
+    font-family: Raleway, sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .findus-button:hover {
+    color:#F4A60B;    
+    text-shadow: 0.063rem 1 #F4A60B;
+    /*letter-spacing:1px;*/
+    font-weight: bold;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .ourjourney-button {
+    margin-right: 2.6rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 0.6;
+    color: #757575;
+    font-family: Raleway, sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .ourjourney-button:hover {
+    color:#F4A60B;    
+    text-shadow: 0.063rem 1 #F4A60B;
+    /*letter-spacing:1px;*/
+    font-weight: bold;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .pickupthephone-button {
+    margin-right: 2.7rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 0.6;
+    color: #757575;
+    font-family: Raleway, sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .pickupthephone-button:hover {
+    color:#F4A60B;    
+    text-shadow: 0.063rem 1 #F4A60B;
+    /*letter-spacing:1px;*/
+    font-weight: bold;
+}
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .register-now1 {
+    /*width: 12.4rem;*/
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+} 
+.homepage .first-layout .home-navigation .frame-home-navigation .frame-button-list .register-now1:hover {
+    content: url('assets/registerboxhover.png'); /* Replace 'another-image.png' with the path to your desired image */
+}
+.homepage .second-layout {
+    width: 100%;
+    height: 38.1rem;
+    position: relative;
+    flex-shrink: 0;
+}
+.homepage .second-layout .custom-box1 {
+    background-color: #ffffff;
+    border: solid 0.3rem #646262;
+    box-sizing: border-box;
+    height: 38rem;
+    left: -1rem;
+    position: absolute;
+    width: 44rem;
+}
+.homepage .second-layout .custom-box1 .aboutyehub-word {
+    position: absolute;
+    width: 50%;
+    right: -5.5rem;
+    top: 10rem;
+    left: 0rem;
+}
+.homepage .second-layout .custom-box2 {
+    background-color: #ffffff;
+    border: solid 0.3rem #F4A60B;
+    box-sizing: border-box;
+    height: 38rem;
+    right: -1rem;
+    position: absolute;
+    width: 85rem;
+}
+.homepage .second-layout .custom-box2 .first-paragraph{
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 1rem;
+    left: 10rem;
+    line-height: 1.8;
+    position: absolute;
+    top: 10rem;
+    width: 59.5rem;
+}
+.homepage .second-layout .custom-box2 .readmore-button {
+    height: 4.6rem;
+    left: 10rem;
+    object-fit: contain;
+    position: absolute;
+    bottom: 7rem;
+    vertical-align: top;
+    width: 16.2056rem;
+    cursor: pointer;
+}
+.homepage .second-layout .custom-box2 .readmore-button:hover {
+    content: url('assets/readmorebutton2.png'); /* Replace 'another-image.png' with the path to your desired image */
+}
+
+.homepage .layout-header-frame {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 6.7rem;
+    margin: 1rem 44.698rem 0.5rem 44.6rem;
+    width: calc(100% - 89.2983rem);
+
+}
+.homepage .layout-header-frame .choose-a-topic {
+    height: 4.5rem;
+    left: 43.3rem;
+    top: 2.5rem;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage .third-layout {
+    flex-shrink: 0;
+    height: 74.9rem;
+    position: relative;
+    width: 100%;
+}
+.homepage .third-layout .layout-info-frame {
+    background-color: #e0aeb2;
+    height: 54.7rem;
+    left: 0;
+    position: absolute;
+    top: 20.2rem;
+    width: 122rem;
+}
+.homepage .third-layout .layout-info-frame .form-container {
+    height: 40rem;
+    position: absolute;
+    left: 13rem;
+    width: 96.7rem;
+    top: 10rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-frame {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+    width: 96.7rem;
+    left: 0.2rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .header-inputframe {
+    top: 3.4rem;
+    position: relative;
+    text-align: center;
+    left: 28rem;
+    height: 3.5rem;
+}
+
+.homepage .third-layout .layout-info-frame .form-container .input-group1 {
+    margin-bottom: 10px;
+    position: relative;
+    left: 1.7rem;
+    top: 8rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group1 input{
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group1 .first-name1 {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 0.8rem;
+    left: 0rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group2 {
+    margin-bottom: 10px;
+    position: relative;
+    left: 28.5rem;
+    top: 5.8rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group2 input {
+    left:4rem;
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 36rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group2 .first-name2 {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 0.8rem;
+    left: 4rem;
+}
+
+.homepage .third-layout .layout-info-frame .form-container .input-group3 {
+    /*margin-bottom: 10px;*/
+    position: relative;
+    left: -1.5rem;
+    top: 8.6rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group3 input {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group3 .phone {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 0.8rem;
+    left: 0rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group4 {
+    /*margin-bottom: 10px;*/
+    position: relative;
+    left: 28.7rem;
+    top: 7.1rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group4 input {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 36rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group4 .email {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 0.8rem;
+    left: 0rem;
+}
+/*.form-container .submit-button {
+    margin-bottom: 10px;
+    position: relative;
+}*/
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    position:relative;
+}
+
+input[type="text"] {
+    width: 200px;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.homepage .third-layout .layout-info-frame .form-container .dropdown-container {
+    display: flex;
+    align-items: center;
+    top: 10.5rem;
+    left: 0.6rem;
+    position: relative;
+}
+
+.homepage .third-layout .layout-info-frame .form-container .dropdown-container .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 44rem; 
+}
+
+select {
+    width: 65rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    -webkit-appearance: none;
+    position: relative;
+    left: -20rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .dropdown-container .dropdown-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    background: url('assets/dropdownbutton.png') no-repeat;
+    background-size: 31px 25px;
+    background-position: center;
+    pointer-events: none;
+}
+.homepage .third-layout .layout-info-frame .form-container .dropdown-image {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.homepage .third-layout .layout-info-frame .form-container .dropdown-image .image-drop {
+    width: 100%;
+    height: 2rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .dropdown-container .choosetopic {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: -0.2rem;
+    left: -8.3rem;
+    /* margin: 1rem 3rem 1rem 0rem; */
+    width: 12rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group5 {
+    /*margin-bottom: 10px;*/
+    position: relative;
+    left: -0.6rem;
+    top: 12.8rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group5 input {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    left: 8rem;
+    width: 36rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .input-group5 .message {
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 0.8rem;
+    left: 1rem;
+    top: 0.3rem;
+}
+.homepage .third-layout .layout-info-frame .form-container .agreement {
+    bottom: -15.5rem;
+    color: #646262;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: -2.2rem;
+    left: -16.9rem;
+    width: 55rem;
+    line-height: 1.5;
+    position: relative;
+}
+.homepage .third-layout .layout-info-frame .form-container .submit-button .register-now3 {
+    /*width: 12.4rem;*/
+    top: 10rem;
+    left: 66rem;
+    height: 4.5rem;
+    cursor: pointer;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+    position: relative;
+} 
+.homepage .third-layout .layout-info-frame .form-container .submit-button .register-now3:hover {
+    position: relative;
+    content: url('assets/registerboxhover.png'); /* Replace 'another-image.png' with the path to your desired image */
+}
+* {
+    box-sizing: border-box;
+
+}
+.homepage .third-layout .wrapper {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 14rem;
+}
+
+.homepage .third-layout .cta {
+    display: flex;
+    padding: 0.5rem 6rem 3rem;
+    background: #00CEA9;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    /*transform: skewX(-15deg);*/
+}
+
+.homepage .third-layout .cta:focus {
+    outline: none; 
+}
+
+.homepage .third-layout .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FDCB00;
+}
+
+.homepage .third-layout .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.homepage .third-layout .cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+span {
+    transform: skewX(15deg) 
+}
+
+span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+}
+    
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.homepage .third-layout .cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.homepage .third-layout .cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.homepage .third-layout .cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+  /* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FDCB00;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+.homepage .third-layout .wrapper1 {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 62.2rem;
+}
+
+.homepage .third-layout .cta1 {
+    display: flex;
+    padding: 6.5rem 3rem 5rem 3rem;;
+    background: #FDCB00;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    /*transform: skewX(-15deg);*/
+}
+
+.homepage .third-layout .cta1:focus {
+    outline: none; 
+}
+
+.homepage .third-layout .cta1:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #00CEA9;
+}
+
+.homepage .third-layout .cta1 span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.homepage .third-layout .cta1:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+span {
+    transform: skewX(15deg) 
+}
+
+span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+}
+    
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.homepage .third-layout .cta1:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.homepage .third-layout .cta1:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.homepage .third-layout .cta1:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+  /* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FDCB00;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+.homepage .third-layout .left-image:hover,
+.homepage .third-layout .right-image:hover {
+    /* Scale up only to the right */
+    transform: scaleX(1.1);
+}
+.homepage .homepage-footer {
+    align-items: center;
+    background-color: #f9f7f2;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    padding: 3.7rem 78.5rem 3.7rem 12.3rem;
+    width: 100%;
+}
+.homepage .homepage-footer .footer-logo {
+    color: #646262;
+    flex-shrink: 0;
+    font-family: Paytone One, 'Source Sans Pro';
+    font-size: 3.8rem;
+    font-weight: 400;
+    line-height: 0.7368421053;
+    margin: 0rem 14.5rem 1rem 0rem;
+    white-space: nowrap;
+}
+.homepage .homepage-footer .footer-sentence {
+    color: #646262;
+    flex-shrink: 0;
+    font-family: Raleway, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5555555556;
+    margin-top: 1rem;
+    white-space: nowrap;
+}
+
+
